@@ -25,13 +25,13 @@
         </div>
       </div>
 
-      <div class="blog-posts-wrapper">
+      <div class="blog-posts-wrapper" style="min-height: 150px;">
 
         <div class="blog-post-card" style="height: 100px;">
           <div class="funciona slide-button" style="width: 260px;">
             <a class="button-link w-inline-block w--current" id="md_cadastro"></a>
 
-            <div class="button-text">Meu Cadastro</div>
+            <div class="button-text">Alterar Dados</div>
 
           </div>
         </div>
@@ -56,7 +56,7 @@
 
       </div>
 
-      <div class="blog-posts-wrapper" style="margin: 0 0 50px 0;">
+      <div class="blog-posts-wrapper" style="margin: 0 0 50px 0;min-height: 150px;">
 
         <div class="blog-post-card" style="height: 100px;">
           <div class="funciona slide-button" style="width: 260px;">
