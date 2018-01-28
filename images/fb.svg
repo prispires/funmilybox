@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>fb_white</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3524 -4882)" figma:type="canvas">
+<g id="fb_white" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Layer 2" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Layer 1" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(3524 4882)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 28 1.11022e-16L 4 1.11022e-16C 2.93913 7.77156e-16 1.92172 0.421427 1.17157 1.17157C 0.421427 1.92172 1.08247e-15 2.93913 0 4L 7.77156e-16 28C 1.36002e-15 29.0609 0.421427 30.0783 1.17157 30.8284C 1.92172 31.5786 2.93913 32 4 32L 16.14 32L 16.14 20.52L 12.3 20.52L 12.3 15.52L 16.13 15.52L 16.13 13C 16.0952 12.1199 16.2365 11.2416 16.5455 10.4168C 16.8544 9.5919 17.3249 8.83699 17.9293 8.19625C 18.5337 7.55552 19.2599 7.04184 20.0654 6.68532C 20.8708 6.32881 21.7393 6.13661 22.62 6.12L 26.15 6.12L 26.15 11.76L 23 11.76C 22.17 11.76 21.93 12.23 21.93 12.89L 21.93 15.5L 26.16 15.5L 26.16 20.5L 21.93 20.5L 21.93 32L 28 32C 29.0609 32 30.0783 31.5786 30.8284 30.8284C 31.5786 30.0783 32 29.0609 32 28L 32 4C 32 2.93913 31.5786 1.92172 30.8284 1.17157C 30.0783 0.421427 29.0609 6.66134e-16 28 0L 28 1.11022e-16Z"/>
+</defs>
+</svg>

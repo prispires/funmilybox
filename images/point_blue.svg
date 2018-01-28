@@ -1,0 +1,12 @@
+<svg width="60" height="17" viewBox="0 0 60 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Polygon 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4721 -1628)" figma:type="canvas">
+<g id="Polygon 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 4781 1645)" fill="#018ea9" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 30 0L 60 17L 0 17L 30 0Z"/>
+</defs>
+</svg>

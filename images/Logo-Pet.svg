@@ -1,0 +1,169 @@
+<svg width="474" height="108" viewBox="0 0 474 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Logo Pet</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(3 0 0 3 -10467 648)" figma:type="canvas">
+<g id="Logo Pet" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="bird" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(3508.12 -185.527)" fill="#DB9F15" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(3506.17 -181.139)" fill="#DB9F15" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(3513.17 -199.326)" fill="#00AF41" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(3513.17 -199.326)" fill="#007934" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path4_fill" transform="translate(3513.17 -199.326)" fill="#009BDE" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path5_fill" transform="translate(3502.12 -202.672)" fill="#A93439" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path6_fill" transform="translate(3491.94 -213.34)" fill="#E63C2F" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path7_fill" transform="translate(3489 -198.394)" fill="#00AF41" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path8_fill" transform="translate(3492 -198.394)" fill="#007934" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path9_fill" transform="translate(3494.75 -198.394)" fill="#009BDE" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path10_fill" transform="translate(3507.38 -208.664)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path11_fill" transform="translate(3508.3 -207.754)" fill="#814C3A" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path12_fill" transform="translate(3513.72 -207.162)" fill="#FFD13F" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path13_fill" transform="translate(3496.43 -188.843)" fill="#E63C2F" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path14_fill" transform="translate(3503.63 -185.527)" fill="#FFB819" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path15_fill" transform="translate(3501.69 -181.139)" fill="#FFB819" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask0_alpha)" figma:type="frame">
+</g>
+<mask id="mask1_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask1_alpha)" figma:type="frame">
+</g>
+<mask id="mask2_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask2_alpha)" figma:type="frame">
+</g>
+<mask id="mask3_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask3_alpha)" figma:type="frame">
+</g>
+<mask id="mask4_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask4_alpha)" figma:type="frame">
+</g>
+<mask id="mask5_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask5_alpha)" figma:type="frame">
+</g>
+<mask id="mask6_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask6_alpha)" figma:type="frame">
+</g>
+<mask id="mask7_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask7_alpha)" figma:type="frame">
+</g>
+<mask id="mask8_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask8_alpha)" figma:type="frame">
+</g>
+<mask id="mask9_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask9_alpha)" figma:type="frame">
+</g>
+<mask id="mask10_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask10_alpha)" figma:type="frame">
+</g>
+<mask id="mask11_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask11_alpha)" figma:type="frame">
+</g>
+<mask id="mask12_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask12_alpha)" figma:type="frame">
+</g>
+<mask id="mask13_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask13_alpha)" figma:type="frame">
+</g>
+<mask id="mask14_alpha" mask-type="alpha">
+<path d="M 3489 -216L 3505.34 -216L 3505.34 -199.798L 3489 -199.798L 3489 -216Z" fill="#FFFFFF"/>
+</mask>
+<g id="Group" style="mix-blend-mode:normal;" mask="url(#mask14_alpha)" figma:type="frame">
+</g>
+</g>
+<g id="petsCLUB" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path16_fill" transform="translate(3528 -215)" fill="#FF5331" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path17_fill" transform="translate(3528 -215)" fill="#00B9D9" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1.42001 4.38863L 3.89059e-07 4.38863L 3.89059e-07 0.703814C 3.89059e-07 0.31529 0.317899 2.96667e-07 0.710003 2.96667e-07L 0.710167 2.96667e-07C 1.10211 2.96667e-07 1.42017 0.315129 1.42017 0.703977L 1.42017 4.38863L 1.42001 4.38863Z"/>
+<path id="path1_fill" d="M 5.5107 1.13868L 0.574344 1.13868C 0.257262 1.13868 -4.98793e-08 0.883818 -4.98793e-08 0.569338C -4.98793e-08 0.254857 0.257098 1.20645e-06 0.574344 1.20645e-06L 5.5107 1.20645e-06C 5.82778 1.20645e-06 6.08488 0.254857 6.08488 0.569338C 6.08488 0.883656 5.82794 1.13868 5.5107 1.13868Z"/>
+<path id="path2_fill" d="M 14.8277 5.04334e-07C 14.8277 5.09002 10.6651 9.21618 5.53047 9.21618L 8.77876e-07 9.21618L 8.77876e-07 5.04334e-07L 14.8277 5.04334e-07Z"/>
+<path id="path3_fill" d="M 11.8288 5.04334e-07C 11.8288 4.0607 8.50811 7.3523 4.41186 7.3523L -4.5889e-07 7.3523L -4.5889e-07 5.04334e-07L 11.8288 5.04334e-07Z"/>
+<path id="path4_fill" d="M 9.07804 5.04334e-07C 9.07804 3.11629 6.52961 5.6425 3.38592 5.6425L -4.5889e-07 5.6425L -4.5889e-07 5.04334e-07L 9.07804 5.04334e-07Z"/>
+<path id="path5_fill" d="M 4.18986e-07 7.91112e-08L 4.18986e-07 19.4719L 2.10713 19.4719C 7.52139 19.4719 11.9105 15.121 11.9105 9.75408L 11.9105 7.91112e-08L 4.18986e-07 7.91112e-08Z"/>
+<path id="path6_fill" d="M 16.1397 1.01361e-07L 5.73612e-08 1.01361e-07C 5.73612e-08 4.82965 3.90044 8.75345 8.74886 8.85131C 9.40738 12.3041 12.4648 14.916 16.1395 14.916C 20.2946 14.916 23.663 11.577 23.663 7.45794C 23.663 3.33891 20.2946 1.01361e-07 16.1397 1.01361e-07Z"/>
+<path id="path7_fill" d="M 0 2.37334e-07C 0 5.08985 4.16261 9.21617 9.29722 9.21617L 14.8277 9.21617L 14.8277 2.37334e-07L 0 2.37334e-07Z"/>
+<path id="path8_fill" d="M -6.98311e-08 2.37334e-07C -6.98311e-08 4.06038 3.3207 7.35214 7.41695 7.35214L 11.8288 7.35214L 11.8288 2.37334e-07L -6.98311e-08 2.37334e-07Z"/>
+<path id="path9_fill" d="M 2.29445e-07 2.37334e-07C 2.29445e-07 3.11613 2.54843 5.6425 5.69212 5.6425L 9.07804 5.6425L 9.07804 2.37334e-07L 2.29445e-07 2.37334e-07Z"/>
+<path id="path10_fill" d="M 1.83483 3.63767C 2.84818 3.63767 3.66966 2.82335 3.66966 1.81883C 3.66966 0.81432 2.84818 0 1.83483 0C 0.82148 0 0 0.81432 0 1.81883C 0 2.82335 0.82148 3.63767 1.83483 3.63767Z"/>
+<path id="path11_fill" d="M 0.917414 1.81883C 1.42409 1.81883 1.83483 1.41167 1.83483 0.909418C 1.83483 0.40716 1.42409 0 0.917414 0C 0.41074 0 0 0.40716 0 0.909418C 0 1.41167 0.41074 1.81883 0.917414 1.81883Z"/>
+<path id="path12_fill" d="M 1.80198 5.4389e-08L 7.18262e-07 5.4389e-08L 7.18262e-07 4.27165L 6.11119 4.27165C 6.11103 1.91248 4.18173 5.4389e-08 1.80198 5.4389e-08Z"/>
+<path id="path13_fill" d="M 2.84606 -6.13112e-07C 1.27421 -6.13112e-07 -2.39421e-07 1.26311 -2.39421e-07 2.82125C -2.39421e-07 4.3794 1.27421 5.6425 2.84606 5.6425L 5.69212 5.6425L 5.69212 2.82125C 5.69212 1.26311 4.41791 -6.13112e-07 2.84606 -6.13112e-07Z"/>
+<path id="path14_fill" d="M 1.42001 4.38863L 0 4.38863L 0 0.703814C 0 0.31529 0.3179 2.96667e-07 0.710167 2.96667e-07C 1.10211 2.96667e-07 1.42017 0.315129 1.42017 0.703977L 1.42017 4.38863L 1.42001 4.38863Z"/>
+<path id="path15_fill" d="M 5.51053 1.13868L 0.57418 1.13868C 0.257098 1.13868 -6.18504e-07 0.883818 -6.18504e-07 0.569338C -6.18504e-07 0.254857 0.256934 1.20645e-06 0.57418 1.20645e-06L 5.51053 1.20645e-06C 5.82762 1.20645e-06 6.08488 0.254857 6.08488 0.569338C 6.08488 0.883656 5.82762 1.13868 5.51053 1.13868Z"/>
+<path id="path16_fill" d="M 72.7695 13.4297L 71.6797 13.4297L 71.4805 10.8398C 71.0273 10.3008 70.4375 9.86719 69.7109 9.53906C 68.9844 9.20313 68.1445 9.03516 67.1914 9.03516C 65.2852 9.03516 63.7695 9.73047 62.6445 11.1211C 61.5195 12.5039 60.957 14.293 60.957 16.4883L 60.957 16.7344C 60.957 18.9297 61.5117 20.7266 62.6211 22.125C 63.7383 23.5156 65.2031 24.2109 67.0156 24.2109C 67.9766 24.2109 68.8477 24.043 69.6289 23.707C 70.418 23.3711 71.0352 22.9375 71.4805 22.4062L 71.6797 19.8164L 72.7695 19.8164L 72.7695 22.8164C 72.2383 23.5508 71.4609 24.1641 70.4375 24.6562C 69.4219 25.1484 68.2812 25.3945 67.0156 25.3945C 64.8281 25.3945 63.0391 24.5859 61.6484 22.9688C 60.2578 21.3438 59.5625 19.2656 59.5625 16.7344L 59.5625 16.5117C 59.5625 13.9727 60.2539 11.8945 61.6367 10.2773C 63.0273 8.65234 64.8438 7.83984 67.0859 7.83984C 68.3516 7.83984 69.4805 8.08984 70.4727 8.58984C 71.4727 9.08203 72.2383 9.69531 72.7695 10.4297L 72.7695 13.4297ZM 75.0078 25.1484L 75.0078 24.1172L 76.918 23.9648L 76.918 9.28125L 75.0078 9.12891L 75.0078 8.08594L 76.918 8.08594L 78.3242 8.08594L 80.2344 8.08594L 80.2344 9.12891L 78.3242 9.28125L 78.3242 23.9648L 85.4141 23.9648L 85.5195 21.5625L 86.7617 21.5625L 86.7617 25.1484L 75.0078 25.1484ZM 93.2656 8.08594L 93.2656 9.12891L 91.3555 9.28125L 91.3555 19.6523C 91.3555 21.1055 91.7852 22.2305 92.6445 23.0273C 93.5039 23.8164 94.625 24.2109 96.0078 24.2109C 97.4141 24.2109 98.5586 23.8164 99.4414 23.0273C 100.324 22.2383 100.766 21.1133 100.766 19.6523L 100.766 9.28125L 98.8555 9.12891L 98.8555 8.08594L 104.07 8.08594L 104.07 9.12891L 102.16 9.28125L 102.16 19.6523C 102.16 21.5117 101.59 22.9336 100.449 23.918C 99.3164 24.9023 97.8359 25.3945 96.0078 25.3945C 94.2109 25.3945 92.7539 24.9023 91.6367 23.918C 90.5195 22.9258 89.9609 21.5039 89.9609 19.6523L 89.9609 9.28125L 88.0508 9.12891L 88.0508 8.08594L 89.9609 8.08594L 91.3555 8.08594L 93.2656 8.08594ZM 112.508 8.08594C 114.281 8.08594 115.66 8.46094 116.645 9.21094C 117.637 9.95313 118.133 11.0742 118.133 12.5742C 118.133 13.4492 117.883 14.2109 117.383 14.8594C 116.891 15.5078 116.219 15.957 115.367 16.207C 116.406 16.3945 117.25 16.8828 117.898 17.6719C 118.547 18.4609 118.871 19.3711 118.871 20.4023C 118.871 21.9258 118.375 23.0977 117.383 23.918C 116.398 24.7383 115.078 25.1484 113.422 25.1484L 105.617 25.1484L 105.617 24.1172L 107.527 23.9648L 107.527 9.28125L 105.617 9.12891L 105.617 8.08594L 107.527 8.08594L 112.508 8.08594ZM 108.922 16.9219L 108.922 23.9648L 113.422 23.9648C 114.68 23.9648 115.668 23.6562 116.387 23.0391C 117.105 22.4141 117.465 21.543 117.465 20.4258C 117.465 19.4023 117.137 18.5625 116.48 17.9062C 115.832 17.25 114.887 16.9219 113.645 16.9219L 108.922 16.9219ZM 108.922 15.7383L 112.848 15.7383C 114.082 15.7383 115.035 15.4688 115.707 14.9297C 116.387 14.3828 116.727 13.582 116.727 12.5273C 116.727 11.4492 116.367 10.6406 115.648 10.1016C 114.93 9.55469 113.883 9.28125 112.508 9.28125L 108.922 9.28125L 108.922 15.7383Z"/>
+<path id="path17_fill" d="M 10.2031 14.5312L 10.2031 12.4688L 15.1719 12.4688L 15.3359 13.9453C 15.7109 13.3984 16.1602 12.9766 16.6836 12.6797C 17.207 12.3828 17.8164 12.2344 18.5117 12.2344C 20.082 12.2344 21.3008 12.8477 22.168 14.0742C 23.0352 15.3008 23.4688 16.9141 23.4688 18.9141L 23.4688 19.1602C 23.4688 21.0352 23.0352 22.543 22.168 23.6836C 21.3008 24.8242 20.0898 25.3945 18.5352 25.3945C 17.8711 25.3945 17.2812 25.2734 16.7656 25.0312C 16.25 24.7812 15.8086 24.418 15.4414 23.9414L 15.4414 27.6094L 17.0938 27.9609L 17.0938 30.0234L 10.3789 30.0234L 10.3789 27.9609L 12.0312 27.6094L 12.0312 14.8828L 10.2031 14.5312ZM 20.0469 18.9141C 20.0469 17.7188 19.8477 16.75 19.4492 16.0078C 19.0508 15.2656 18.4414 14.8945 17.6211 14.8945C 17.1055 14.8945 16.6641 15 16.2969 15.2109C 15.9375 15.4219 15.6523 15.7227 15.4414 16.1133L 15.4414 21.668C 15.6523 22.0273 15.9375 22.3008 16.2969 22.4883C 16.6641 22.6758 17.1133 22.7695 17.6445 22.7695C 18.4727 22.7695 19.0781 22.4453 19.4609 21.7969C 19.8516 21.1484 20.0469 20.2695 20.0469 19.1602L 20.0469 18.9141ZM 31.0625 25.3945C 29.2344 25.3945 27.7734 24.8086 26.6797 23.6367C 25.5859 22.4648 25.0391 20.9766 25.0391 19.1719L 25.0391 18.7031C 25.0391 16.8203 25.5547 15.2695 26.5859 14.0508C 27.625 12.832 29.0156 12.2266 30.7578 12.2344C 32.4688 12.2344 33.7969 12.75 34.7422 13.7812C 35.6875 14.8125 36.1602 16.207 36.1602 17.9648L 36.1602 19.8281L 28.5898 19.8281L 28.5664 19.8984C 28.6289 20.7344 28.9062 21.4219 29.3984 21.9609C 29.8984 22.5 30.5742 22.7695 31.4258 22.7695C 32.1836 22.7695 32.8125 22.6953 33.3125 22.5469C 33.8125 22.3906 34.3594 22.1484 34.9531 21.8203L 35.8789 23.9297C 35.3555 24.3438 34.6758 24.6914 33.8398 24.9727C 33.0117 25.2539 32.0859 25.3945 31.0625 25.3945ZM 30.7578 14.8711C 30.125 14.8711 29.625 15.1133 29.2578 15.5977C 28.8906 16.082 28.6641 16.7188 28.5781 17.5078L 28.6133 17.5664L 32.8086 17.5664L 32.8086 17.2617C 32.8086 16.5352 32.6367 15.957 32.293 15.5273C 31.957 15.0898 31.4453 14.8711 30.7578 14.8711ZM 42.8398 9.36328L 42.8398 12.4688L 45.0664 12.4688L 45.0664 14.8711L 42.8398 14.8711L 42.8398 21.3281C 42.8398 21.8203 42.9414 22.1719 43.1445 22.3828C 43.3477 22.5938 43.6211 22.6992 43.9648 22.6992C 44.1992 22.6992 44.4023 22.6914 44.5742 22.6758C 44.7539 22.6523 44.9531 22.6172 45.1719 22.5703L 45.4648 25.043C 45.082 25.1602 44.7031 25.2461 44.3281 25.3008C 43.9531 25.3633 43.5469 25.3945 43.1094 25.3945C 41.9297 25.3945 41.0195 25.0703 40.3789 24.4219C 39.7461 23.7734 39.4297 22.7461 39.4297 21.3398L 39.4297 14.8711L 37.5664 14.8711L 37.5664 12.4688L 39.4297 12.4688L 39.4297 9.36328L 42.8398 9.36328ZM 57.0898 16.8281L 54.793 16.8281L 54.4297 15.2461C 54.1953 15.0586 53.8984 14.9023 53.5391 14.7773C 53.1875 14.6523 52.7969 14.5898 52.3672 14.5898C 51.7656 14.5898 51.2891 14.7266 50.9375 15C 50.5859 15.2656 50.4102 15.6016 50.4102 16.0078C 50.4102 16.3906 50.5781 16.7109 50.9141 16.9688C 51.25 17.2187 51.9219 17.4414 52.9297 17.6367C 54.5 17.9492 55.6641 18.4102 56.4219 19.0195C 57.1797 19.6211 57.5586 20.4531 57.5586 21.5156C 57.5586 22.6562 57.0664 23.5898 56.082 24.3164C 55.1055 25.0352 53.8164 25.3945 52.2148 25.3945C 51.2383 25.3945 50.3398 25.2539 49.5195 24.9727C 48.707 24.6836 47.9844 24.2734 47.3516 23.7422L 47.3164 20.8945L 49.707 20.8945L 50.1758 22.5469C 50.3789 22.7188 50.6562 22.8477 51.0078 22.9336C 51.3594 23.0117 51.7266 23.0508 52.1094 23.0508C 52.8047 23.0508 53.332 22.9258 53.6914 22.6758C 54.0586 22.4258 54.2422 22.0859 54.2422 21.6562C 54.2422 21.2812 54.0586 20.957 53.6914 20.6836C 53.3242 20.4102 52.6484 20.168 51.6641 19.957C 50.1719 19.6523 49.043 19.2031 48.2773 18.6094C 47.5195 18.0078 47.1406 17.1914 47.1406 16.1602C 47.1406 15.0977 47.5781 14.1836 48.4531 13.418C 49.3281 12.6445 50.5742 12.2578 52.1914 12.2578C 53.1758 12.2578 54.1055 12.3906 54.9805 12.6562C 55.8633 12.9219 56.5547 13.2617 57.0547 13.6758L 57.0898 16.8281Z"/>
+</defs>
+</svg>

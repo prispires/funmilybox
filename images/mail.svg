@@ -1,0 +1,14 @@
+<svg width="21" height="14" viewBox="0 0 21 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2254 -4658)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Subtract" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(2254 4658)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0.241211L 9.97827 8.37158L 10.5 8.79639L 11.0217 8.37158L 21 0.241211L 21 14L 0 14L 0 0.241211ZM 2.20483 0L 10.5 6.75879L 18.7952 0L 2.20483 0Z"/>
+</defs>
+</svg>

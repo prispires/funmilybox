@@ -1,0 +1,18 @@
+<svg width="42" height="30" viewBox="0 0 42 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>youtube_white</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3641 -4883)" figma:type="canvas">
+<g id="youtube_white" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Layer 2" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Layer 1" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(3641 4883)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 40.215 2.8872C 39.06 0.792301 37.8262 0.389436 35.3062 0.241719C 32.7862 0.0940018 26.4863 0 21 0C 15.5137 0 9.1875 0.080573 6.69375 0.241719C 4.2 0.402865 2.94 0.792301 1.785 2.92748C 0.63 5.06267 0 8.62131 0 14.9866C 0 21.3518 0.616875 24.9776 1.785 27.0725C 2.95312 29.1674 4.18687 29.5703 6.69375 29.7583C 9.20062 29.9463 15.5269 30 21 30C 26.4863 30 32.8125 29.9194 35.3062 29.7583C 37.8 29.5971 39.06 29.2077 40.215 27.0725C 41.37 24.9373 42 21.3518 42 15C 42 8.62131 41.3831 4.9821 40.215 2.8872ZM 16.8131 22.829L 16.8131 7.10385L 28.7437 14.9866L 16.8131 22.829Z"/>
+</defs>
+</svg>
