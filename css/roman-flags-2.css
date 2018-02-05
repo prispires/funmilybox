@@ -163,8 +163,8 @@ label { font-weight: 600 !important;}
     font-size: 12px !important;
 }
 
-.faq{display:block;cursor:default;width: 100%;margin-bottom: 50px;}
-.faq .pergunta{font-weight: 700;font-family: Lato, sans-serif;display:block;font-size:16px;color:#6c6c6c;margin-top:45px;border-bottom:1px solid #e2e2e2;cursor:pointer;background:url(/config/templateclube/_imagens/site/seta-2.png) no-repeat right center;padding-right:10px}
+.faq{display:block;cursor:default;width: 100%;margin-bottom: 50px;padding: 0 15px;}
+.faq .pergunta{font-weight: 700;font-family: Lato, sans-serif;display:block;font-size: 16px;color:#6c6c6c;margin-top:45px;border-bottom:1px solid #e2e2e2;cursor:pointer;background:url(/config/templateclube/_imagens/site/seta-2.png) no-repeat right center;padding-right:10px;}
 .faq .pergunta.select{background:url(/config/templateclube/_imagens/site/seta-1.png) no-repeat right 5px}
 .faq .resposta{font-family: Lato, sans-serif;display:none;font-size:14px;color:#6c6c6c;margin-top:20px}
 .faq .resposta.select{display:block}
@@ -341,8 +341,9 @@ font-family: 'PT Sans Narrow',sans-serif;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #d22357;
+  background-color: #ffffff;
   box-shadow: 0 1px 9px 0 rgba(0, 0, 0, .25);
+  border-radius: 0px;
 }
 
 .slider-container {
@@ -960,6 +961,7 @@ font-family: 'PT Sans Narrow',sans-serif;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  display: none;
 }
 
 .left-planos {
@@ -981,10 +983,11 @@ font-family: 'PT Sans Narrow',sans-serif;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  display: none;
 }
 
 .slide-plano {
-  width: 33.33%;
+  width: 50%;
   padding-right: 15px;
   padding-bottom: 0px;
   padding-left: 15px;
@@ -1038,17 +1041,20 @@ font-family: 'PT Sans Narrow',sans-serif;
   color: #3f3f3f;
   font-size: 18px;
   font-weight: 700;
+  display: none;
 }
 
 .plano-item-left {
   left: -22px;
   color: #3f3f3f;
   font-size: 18px;
+  display: none;
 }
 
 .plano-item-nav {
   padding-top: 20px;
   font-size: 10px;
+  display: none;
 }
 
 .plano-item-title {
@@ -1059,6 +1065,7 @@ font-family: 'PT Sans Narrow',sans-serif;
   color: #3f3f3f;
   font-weight: 900;
   text-align: center;
+  display: none;
 }
 
 .plano-item-text {
@@ -1135,10 +1142,15 @@ font-family: 'PT Sans Narrow',sans-serif;
   font-weight: 900;
 }
 
+img.plano-image {
+    height: 100%;
+    margin: 0 auto;
+}
+
 .vantagens {
   display: block;
   padding-bottom: 25px;
-  background-color: #d0b620;
+  background-color: #d22357;
 }
 
 .vantagens-container {
@@ -1628,13 +1640,13 @@ font-family: 'PT Sans Narrow',sans-serif;
   right: 0px;
   width: 100%;
   height: 100%;
-  padding: 0px 10px 0px 0px;
+  padding: 0px 10px 0px 10px;
   border: 1px solid #fff;
   background-color: transparent;
   font-family: Lato, sans-serif;
   font-size: 17px;
   font-weight: 700;
-  text-align: right;
+  text-align: center;
 }
 
 .newsletter-button:hover {
@@ -1660,6 +1672,7 @@ font-family: 'PT Sans Narrow',sans-serif;
   -ms-flex-item-align: start;
   align-self: flex-start;
   border-color: #fff;
+  background-color: #81c340;
 }
 
 .newsletter-form-element {
@@ -1678,7 +1691,7 @@ font-family: 'PT Sans Narrow',sans-serif;
 .footer {
   padding-top: 31px;
   padding-bottom: 31px;
-  background-color: #bb1a4a;
+  background-color: #333;
   color: #333;
   margin-top: 0px !important;
   bottom: 0 !important;
@@ -1860,6 +1873,7 @@ font-family: 'PT Sans Narrow',sans-serif;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
+  margin: 23px;
 }
 
 .navbar-block.navbar-left {
@@ -1914,13 +1928,13 @@ font-family: 'PT Sans Narrow',sans-serif;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
-  color: #fff;
+  color: #018ea9;
   text-decoration: none;
 }
 
 .navbar-link:hover {
   background-color: #fff;
-  color: #ff3e18;
+  color: #d22357;
   font-weight: 700;
   text-decoration: underline;
 }
@@ -1960,8 +1974,8 @@ font-family: 'PT Sans Narrow',sans-serif;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -3377,7 +3391,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     text-align: center;
   }
   .slider-planos {
-    height: 550px;
+    height: 450px;
   }
   .slide-plano {
     padding-right: 10px;
@@ -3451,8 +3465,8 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     padding: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3466,7 +3480,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
   .mobile-menu-line-1 {
     height: 4px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #d22357;
     -webkit-transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
@@ -3474,12 +3488,12 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
   .mobile-menu-line-2 {
     height: 4px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #d22357;
   }
   .mobile-menu-line-3 {
     height: 4px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #d22357;
     -webkit-transform-origin: 0% 100%;
     -ms-transform-origin: 0% 100%;
     transform-origin: 0% 100%;
@@ -3848,7 +3862,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     flex-direction: column;
   }
   .newsletter-form-field {
-    margin-right: 0px;
+    margin-right: 15px;
     margin-bottom: 30px;
   }
   .newsletter-button-wrapper {
@@ -3858,7 +3872,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     align-self: center;
   }
   .newsletter-form-element {
-    margin-top: 30px;
+    margin: 30px auto 0px auto;
   }
   .button-link {
     z-index: 3;
@@ -4234,7 +4248,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    width: 80px;
+    width: 82px;
   }
   .navbar-link.navlink-blue.login-link-mobile {
     display: -webkit-box;
@@ -4242,6 +4256,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     display: -ms-flexbox;
     display: flex;
     width: auto;
+    margin: 10px;
   }
   .login-wrapper.login-mobile {
     top: 0px;
