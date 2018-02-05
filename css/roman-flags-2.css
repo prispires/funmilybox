@@ -347,7 +347,7 @@ font-family: 'PT Sans Narrow',sans-serif;
 }
 
 .slider-container {
-  height: 650px;
+  height: 500px;
   margin-top: 0px;
   padding-top: 40px;
 }
@@ -363,7 +363,7 @@ font-family: 'PT Sans Narrow',sans-serif;
 .slide.slide-2 {
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)), url('../images/fundo_hero_dog.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)), url('../images/fundo_hero_dog.jpg');
-  background-position: 0px 0px, 50% 0px;
+  background-position: 0px 0px, 50% 0px !important;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, scroll;
@@ -515,7 +515,7 @@ font-family: 'PT Sans Narrow',sans-serif;
   width: 70%;
   font-family: Lato, sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 28px;
   text-align: center;
   text-shadow: 0 0 8px rgba(0, 0, 0, .5);
@@ -529,8 +529,8 @@ font-family: 'PT Sans Narrow',sans-serif;
   display: flex;
   width: 300px;
   height: 50px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 13px;
+  margin-bottom: 13px;
   padding-right: 13px;
   padding-left: 13px;
   -webkit-box-pack: justify;
@@ -540,6 +540,7 @@ font-family: 'PT Sans Narrow',sans-serif;
   background-color: #81c341;
   font-family: Lato, sans-serif;
   font-weight: 700;
+  border-radius: 10px;
 }
 
 .slide-button:hover {
@@ -869,6 +870,8 @@ font-family: 'PT Sans Narrow',sans-serif;
   font-family: Lato, sans-serif;
   color: #3f3f3f;
   text-align: center;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .texto-card.texto-vantagens {
@@ -3366,8 +3369,12 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
 @media (max-width: 991px) {
   h1 {
     width: 85%;
-    font-size: 48px;
+    font-size: 36px !important;
+    line-height: 40px !important;
   }
+  .arrow-hero {
+    height: 30%;
+  } 
   .arrow-area.left-hero {
     left: 0px;
   }
@@ -3386,6 +3393,11 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
   }
   .slider-text {
     margin-bottom: 0px;
+  }
+  .slider-container {
+    height: 300px;
+    margin-top: 0px;
+    padding-top: 40px;
   }
   .titulo-card.titulo-vantagens {
     text-align: center;
@@ -3579,6 +3591,9 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     font-size: 38px;
     line-height: 54px;
   }
+  .arrow-hero {
+    height: 30%;
+  }  
   .arrow-area.left-hero {
     padding-left: 20px;
     -webkit-box-align: start;
@@ -3594,7 +3609,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     align-items: flex-end;
   }
   .slide-content {
-    margin-top: 100px;
+    margin-top: 60px;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -3603,9 +3618,14 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    display: none;
   }
   .slider-text {
     width: 90%;
+    display: none;
+  }
+  .hero-slide-nav{
+    display:none;
   }
   .slide-button.funciona {
     margin-top: 0px;
@@ -3630,20 +3650,24 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
   .abertura-text {
-    width: 90%;
+    width: 100%;
     padding-right: 0px;
-    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
   }
   .abertura-icon {
     margin-bottom: 20px;
+    vertical-align: top !important;
+    padding: 0 25px;
+    text-align: right;
   }
   .como-funciona-header {
     margin-top: 20px;
@@ -3802,6 +3826,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
   .h2.h2-home {
     max-width: 90%;
     margin-top: 0px;
+    display: none;
   }
   .blog-posts-wrapper {
     -webkit-box-orient: vertical;
@@ -4044,8 +4069,8 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
 
 @media (max-width: 479px) {
   h1 {
-    font-size: 28px !important;
-    line-height: 34px !important;
+    font-size: 32px !important;
+    line-height: 42px !important;
   }
   .navbar {
     -webkit-box-pack: end;
@@ -4054,8 +4079,8 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     justify-content: flex-end;
   }
   .slider-container {
-    height: 580px;
-    padding-top: 60px;
+    height: 410px;
+    padding-top: 70px;
   }
   .arrow-area.left-hero {
     left: 0px;
@@ -4100,11 +4125,14 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     padding-right: 0px;
     padding-left: 0px;
     text-align: center;
+    font-size: 18px;
+    line-height: 24px;
   }
   .abertura-icon {
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    display: none;
   }
   .como-funciona-header {
     padding-right: 15px;
@@ -4215,6 +4243,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    display: none;
   }
   .blog-posts-wrapper {
     margin-top: 30px;
@@ -4273,7 +4302,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     padding-right: 10px;
   }
   .arrow-hero {
-    height: 15%;
+    height: 20%;
   }
   .arrow-plano {
     height: 15%;
