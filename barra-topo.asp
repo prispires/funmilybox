@@ -33,7 +33,7 @@ end if
 		<a class="menu-mobile-link" data-ix="close-mobile-menu" href="<%if pagina <> "index" then%>/index.asp<%end if%>#planos_id">PLANOS</a>
 		<a class="menu-mobile-link" data-ix="close-mobile-menu" href="<%if pagina <> "index" then%>/index.asp<%end if%>#funciona_id">COMO FUNCIONA</a>
 		<a class="menu-mobile-link" data-ix="close-mobile-menu" href="<%if pagina <> "index" then%>/index.asp<%end if%>#vantagens_id">VANTAGENS</a>
-		<a class="menu-mobile-link" data-ix="close-mobile-menu" href="<%if pagina <> "index" then%>/index.asp<%end if%>#blog_id">BLOG</a>
+		<!--<a class="menu-mobile-link" data-ix="close-mobile-menu" href="<%if pagina <> "index" then%>/index.asp<%end if%>#blog_id">BLOG</a>-->
 		<a class="menu-mobile-link" data-ix="close-mobile-menu" id="md_contato">CONTATO</a>
 	</div>
 	<div class="nav-logo-mobile-box">
@@ -74,16 +74,16 @@ end if
 
 	</div>
 	<div class="navbar-block navbar-right">
-		<a class="navbar-link w-inline-block" href="<%if pagina <> "index" then%>/index.asp<%end if%>#blog_id">
+		<!--<a class="navbar-link w-inline-block" href="<%if pagina <> "index" then%>/index.asp<%end if%>#blog_id">
 			<div class="navbar-text-link">BLOG</div>
-		</a>
+		</a>-->
 		<a class="navbar-link w-inline-block" id="md_contatomob">
 			<div class="navbar-text-link">CONTATO</div>
 		</a>
 	</div>
 	<%If Session("logado") <> "" then%>
 	<a class="login-link-mobile navbar-link navlink-blue w-inline-block" href="minhaassinatura.asp">
-		<div class="navbar-text-link">LOGIN</div>
+		<div class="navbar-text-link">CONTA</div>
 	</a>
 	<%else%>
 	<a class="login-link-mobile navbar-link navlink-blue w-inline-block" id="md_loginmb">
