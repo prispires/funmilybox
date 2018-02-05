@@ -46,11 +46,11 @@ end if
 		<div class="mobile-menu-line-3"></div>
 	</a>
 	<div class="navbar-block navbar-left">
-    <div class="navbar-logo">
+    	<div class="navbar-logo">
 			<a class="w-inline-block" href="<%if pagina <> "index" then%>/index.asp<%end if%>#top_id">
 				<img class="logo" src="/dashboard/uploads/<%=Replace(logoclube, " ", "")%>" alt="<%=RS_Layout1("nome_site")%>">
 			</a>
-		</div>
+		</div>   
 		<a class="navbar-link w-inline-block" href="<%if pagina <> "index" then%>/index.asp<%end if%>#nosso_clube_id">
 			<div class="navbar-text-link">O que é?</div>
 		</a>
@@ -60,11 +60,9 @@ end if
         <a class="navbar-link w-inline-block" href="<%if pagina <> "index" then%>/index.asp<%end if%>#planos_id">
 			<div class="navbar-text-link">Planos</div>
 		</a>
-        <a class="navbar-link w-inline-block" id="md_contatomob">
+        <a class="navbar-link w-inline-block" id="md_contatomob" style="cursor:pointer;">
 			<div class="navbar-text-link">Fale Conosco</div>
 		</a>
-	</div>
-
 	</div>
 	<div class="navbar-block navbar-right">
 		<a class="navbar-link navlink-blue navlink-planos w-inline-block" href="<%if pagina <> "index" then%>/index.asp<%end if%>#planos_id">

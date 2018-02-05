@@ -112,7 +112,9 @@ Session("template") = "romanflags"
           fotoparc = ""
           end if
   %>
-  <div class="abertura">
+  
+<!-- Nosso Clube INÍCIO -->
+  <div class="abertura" id="nosso_clube_id">
     <div class="abertura-container w-container">
       <div class="abertura-header">
         <div class="linha-container">
@@ -140,81 +142,83 @@ Session("template") = "romanflags"
   wend
   end if
   %>
+<!-- Nosso Clube FIM -->  
 
-  <div class="como-funciona" id="funciona_id">
-    <div class="como-funciona-container w-container">
-      <div class="flag-stripe-box">
-        <div class="stripe stripe-orange">
+<!-- Vantagens INÍCIO -->
+  <div class="vantagens" id="vantagens_id">
+    <div class="vantagens-container w-container">
+      <div class="flag-box-right flag-stripe-box flag-stripe-curta">
+        <div class="stripe">
           <div class="stripe-point-box">
             <img class="point" src="/config/templateclube/images/point_60.svg" width="60">
           </div>
           <div class="stripe-fold-box">
-            <img class="stripe-fold" src="/config/templateclube/images/stripe_fold_grey.svg">
+            <img class="stripe-fold stripe-fold-righ w-preserve-3d" src="/config/templateclube/images/stripe_fold_grey.svg">
           </div>
         </div>
       </div>
-      <div class="como-funciona-header">
+      <div class="vantagens-header">
         <div class="linha-container">
           <div class="bola-cheia dark"></div>
           <div class="dark largura-como-funciona linha"></div>
           <div class="bola-vazia dark"></div>
         </div>
-        <h3 class="h3 h3-como-funciona">Como funciona?</h3>
+        <h3 class="h3 h3-vantagens">O que vem na sua Funmily Box</h3>
         <div class="linha-container">
           <div class="bola-vazia dark"></div>
           <div class="dark largura-como-funciona linha"></div>
           <div class="bola-cheia dark"></div>
         </div>
       </div>
-      <div class="como-funciona-cards-wrapper">
+      <div class="vantagens-cards-wrapper">
 
         <%
-        Set RS_funciona = Server.CreateObject("ADODB.Recordset")
-        RS_funciona.CursorLocation = 3
-        RS_funciona.CursorType = 0
-        RS_funciona.LockType =  3
+        Set RS_vantagens = Server.CreateObject("ADODB.Recordset")
+        RS_vantagens.CursorLocation = 3
+        RS_vantagens.CursorType = 0
+        RS_vantagens.LockType =  3
 
-        RS_funciona.Open "SELECT * FROM Roman_flags WHERE tipo = 1 ORDER BY codigo_chave ASC", Conexao
+        RS_vantagens.Open "SELECT * FROM Roman_flags WHERE tipo = 3 ORDER BY codigo_chave ASC", Conexao
 
 
-        If NOT RS_funciona.Eof Then
+        If NOT RS_vantagens.Eof Then
 
-        while not RS_funciona.eof
+        while not RS_vantagens.eof
 
-            Set RS_funciona_img = Server.CreateObject("ADODB.Recordset")
-            RS_funciona_img.CursorLocation = 3
-            RS_funciona_img.CursorType = 0
-            RS_funciona_img.LockType =  3
+            Set RS_vantagens_foto = Server.CreateObject("ADODB.Recordset")
+            RS_vantagens_foto.CursorLocation = 3
+            RS_vantagens_foto.CursorType = 0
+            RS_vantagens_foto.LockType =  3
 
-            RS_funciona_img.Open "SELECT * FROM Roman_flags_Foto WHERE codigo_pagina = '" & RS_funciona("codigo_chave")  &"'", Conexao
+            RS_vantagens_foto.Open "SELECT * FROM Roman_flags_Foto WHERE codigo_pagina = '" & RS_vantagens("codigo_chave")  &"'", Conexao
 
-                if not RS_funciona_img.eof then
-                fotoparc = RS_funciona_img("foto")
+                if not RS_vantagens_foto.eof then
+                fotoparc = RS_vantagens_foto("foto")
                 else
                 fotoparc = ""
                 end if
         %>
-        <div class="como-funciona-card">
-          <img class="como-funciona-icon" src="/dashboard/uploads/<%=Replace(fotoparc, " ", "")%>" alt="<%=RS_funciona("titulo")%>">
-          <div class="titulo-card"><%=RS_funciona("titulo")%></div>
-          <div class="texto-card"><%=RS_funciona("texto")%></div>
+        <div class="vantagens-card">
+          <img class="vantagens-icon" src="/dashboard/uploads/<%=Replace(fotoparc, " ", "")%>" alt="<%=RS_vantagens("titulo")%>">
+          <div class="titulo-card"><%=RS_vantagens("titulo")%></div>
+          <div class="texto-card"><%=RS_vantagens("texto")%></div>
         </div>
         <%
-        RS_funciona.movenext
+        RS_vantagens.movenext
         wend
         end if
         %>
 
-
       </div>
-      <div class="funciona slide-button">
+      <div class="slide-button vantagem-button">
         <a class="button-link w-inline-block" href="#planos_id"></a>
 
-        <div class="button-text">ESCOLHA E ASSINE!</div>
+        <div class="button-text">ENTRE NO CLUBE</div>
 
       </div>
     </div>
   </div>
+<!-- Vantagens FIM -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="/config/templateclube/js/roman-flags-2.js" type="text/javascript"></script>
@@ -257,7 +261,7 @@ Session("template") = "romanflags"
   wend
   end if
   %>
-
+<!-- Planos INÍCIO -->
   <div class="planos" id="planos_id" <%=backplanos%> >
   	<div class="planos-container w-container">
   		<div class="planos-header">
@@ -266,7 +270,7 @@ Session("template") = "romanflags"
   				<div class="largura-planos linha"></div>
   				<div class="bola-vazia"></div>
   			</div>
-  			<h3 class="h3 h3-planos">Escolha seu plano mensal</h3>
+  			<h3 class="h3 h3-planos">Quer todo mês ou só para presentear?</h3>
   			<div class="linha-container">
   				<div class="bola-vazia"></div>
   				<div class="largura-planos linha"></div>
@@ -388,228 +392,88 @@ Session("template") = "romanflags"
   		</div>
   	</div>
   </div>
-
-  <div class="vantagens" id="vantagens_id">
-    <div class="vantagens-container w-container">
-      <div class="flag-box-right flag-stripe-box flag-stripe-curta">
+<!-- Planos FIM -->
+  
+<!-- Como Funciona INÍCIO -->
+  <div class="como-funciona" id="funciona_id">
+    <div class="como-funciona-container w-container">
+      <div class="flag-stripe-box">
         <div class="stripe stripe-blue">
           <div class="stripe-point-box">
             <img class="point" src="/config/templateclube/images/point_blue.svg" width="60">
           </div>
           <div class="stripe-fold-box">
-            <img class="stripe-fold stripe-fold-righ w-preserve-3d" src="/config/templateclube/images/stripe_fold_grey.svg">
+            <img class="stripe-fold" src="/config/templateclube/images/stripe_fold_grey.svg">
           </div>
         </div>
       </div>
-      <div class="vantagens-header">
+      <div class="como-funciona-header">
         <div class="linha-container">
-          <div class="bola-cheia"></div>
-          <div class="largura-planos linha"></div>
-          <div class="bola-vazia"></div>
+          <div class="bola-cheia dark"></div>
+          <div class="dark largura-como-funciona linha"></div>
+          <div class="bola-vazia dark"></div>
         </div>
-        <h3 class="h3 h3-vantagens">Vantagens de assinar</h3>
+        <h3 class="h3 h3-como-funciona">Como funciona?</h3>
         <div class="linha-container">
-          <div class="bola-vazia"></div>
-          <div class="largura-planos linha"></div>
-          <div class="bola-cheia"></div>
+          <div class="bola-vazia dark"></div>
+          <div class="dark largura-como-funciona linha"></div>
+          <div class="bola-cheia dark"></div>
         </div>
       </div>
-      <div class="vantagens-cards-wrapper">
+      <div class="como-funciona-cards-wrapper">
 
         <%
-        Set RS_vantagens = Server.CreateObject("ADODB.Recordset")
-        RS_vantagens.CursorLocation = 3
-        RS_vantagens.CursorType = 0
-        RS_vantagens.LockType =  3
+        Set RS_funciona = Server.CreateObject("ADODB.Recordset")
+        RS_funciona.CursorLocation = 3
+        RS_funciona.CursorType = 0
+        RS_funciona.LockType =  3
 
-        RS_vantagens.Open "SELECT * FROM Roman_flags WHERE tipo = 3 ORDER BY codigo_chave ASC", Conexao
+        RS_funciona.Open "SELECT * FROM Roman_flags WHERE tipo = 1 ORDER BY codigo_chave DESC", Conexao
 
 
-        If NOT RS_vantagens.Eof Then
+        If NOT RS_funciona.Eof Then
 
-        while not RS_vantagens.eof
+        while not RS_funciona.eof
 
-            Set RS_vantagens_foto = Server.CreateObject("ADODB.Recordset")
-            RS_vantagens_foto.CursorLocation = 3
-            RS_vantagens_foto.CursorType = 0
-            RS_vantagens_foto.LockType =  3
+            Set RS_funciona_img = Server.CreateObject("ADODB.Recordset")
+            RS_funciona_img.CursorLocation = 3
+            RS_funciona_img.CursorType = 0
+            RS_funciona_img.LockType =  3
 
-            RS_vantagens_foto.Open "SELECT * FROM Roman_flags_Foto WHERE codigo_pagina = '" & RS_vantagens("codigo_chave")  &"'", Conexao
+            RS_funciona_img.Open "SELECT * FROM Roman_flags_Foto WHERE codigo_pagina = '" & RS_funciona("codigo_chave")  &"'", Conexao
 
-                if not RS_vantagens_foto.eof then
-                fotoparc = RS_vantagens_foto("foto")
+                if not RS_funciona_img.eof then
+                fotoparc = RS_funciona_img("foto")
                 else
                 fotoparc = ""
                 end if
         %>
-        <div class="vantagens-card">
-          <img class="vantagens-icon" src="/dashboard/uploads/<%=Replace(fotoparc, " ", "")%>" alt="<%=RS_vantagens("titulo")%>">
-          <div class="titulo-card titulo-vantagens"><%=RS_vantagens("titulo")%></div>
-          <div class="texto-card texto-vantagens"><%=RS_vantagens("texto")%></div>
+        <div class="como-funciona-card">
+          <img class="como-funciona-icon" src="/dashboard/uploads/<%=Replace(fotoparc, " ", "")%>" alt="<%=RS_funciona("titulo")%>">
+          <div class="titulo-card"><%=RS_funciona("titulo")%></div>
+          <div class="texto-card"><%=RS_funciona("texto")%></div>
         </div>
         <%
-        RS_vantagens.movenext
+        RS_funciona.movenext
         wend
         end if
         %>
 
+
       </div>
-      <div class="slide-button vantagem-button">
+      <div class="funciona slide-button">
         <a class="button-link w-inline-block" href="#planos_id"></a>
 
-        <div class="button-text">ENTRE NO CLUBE</div>
+        <div class="button-text">ESCOLHA E ASSINE!</div>
 
       </div>
     </div>
   </div>
+<!-- Como Funciona FIM -->
 
-  <!--<div class="testemunhais">
-    <div class="testemunhais-container w-container">
-      <div class="testemunhais-header">
-        <div class="linha-container">
-          <div class="bola-cheia"></div>
-          <div class="largura-planos linha"></div>
-          <div class="bola-vazia"></div>
-        </div>
-        <h3 class="h3 h3-testemunhais">O que falam de n&oacute;s?</h3>
-        <div class="linha-container">
-          <div class="bola-vazia"></div>
-          <div class="largura-planos linha"></div>
-          <div class="bola-cheia"></div>
-        </div>
-      </div>
-      <div class="testemunhais-wrapper">
+<!-- testemunhais -->
 
-        <%
-        Set RS_depoimentos = Server.CreateObject("ADODB.Recordset")
-        RS_depoimentos.CursorLocation = 3
-        RS_depoimentos.CursorType = 0
-        RS_depoimentos.LockType =  3
-
-        RS_depoimentos.Open "SELECT * FROM Roman_flags WHERE tipo = 4 ORDER BY codigo_chave ASC", Conexao
-
-
-        If NOT RS_depoimentos.Eof Then
-
-        while not RS_depoimentos.eof
-
-            Set RS_depoimentos_foto = Server.CreateObject("ADODB.Recordset")
-            RS_depoimentos_foto.CursorLocation = 3
-            RS_depoimentos_foto.CursorType = 0
-            RS_depoimentos_foto.LockType =  3
-
-            RS_depoimentos_foto.Open "SELECT * FROM Roman_flags_Foto WHERE codigo_pagina = '" & RS_depoimentos("codigo_chave")  &"'", Conexao
-
-                if not RS_depoimentos_foto.eof then
-                fotoparc = RS_depoimentos_foto("foto")
-                else
-                fotoparc = ""
-                end if
-        %>
-
-        <div class="testemunhal-card">
-          <div class="testemunhal-foto-mask">
-            <img class="testemunhal-foto" src="/dashboard/uploads/<%=Replace(fotoparc, " ", "")%>" alt="<%=RS_depoimentos("titulo")%>">
-          </div>
-          <div class="texto-card texto-testemunhal"><%=RS_depoimentos("texto")%></div>
-          <div class="testemunhal-nome"><%=RS_depoimentos("titulo")%></div>
-        </div>
-
-        <%
-        RS_depoimentos.movenext
-        wend
-        end if
-        %>
-
-
-
-
-      </div>
-      <div class="slide-button testemunhal-button">
-        <a class="button-link w-inline-block" href="#planos_id"></a>
-
-        <div class="button-text">ENTRE NO CLUBE</div>
-
-      </div>
-    </div>
-  </div>-->
-
-  <!--<div class="blog" id="blog_id">
-    <div class="blog-container w-container">
-      <div class="blog-header">
-        <div class="linha-container">
-          <div class="bola-cheia dark"></div>
-          <div class="dark largura-como-funciona linha"></div>
-          <div class="bola-vazia dark"></div>
-        </div>
-        <h3 class="h3 h3-blog">Leia nosso blog</h3>
-        <div class="linha-container">
-          <div class="bola-vazia dark"></div>
-          <div class="dark largura-como-funciona linha"></div>
-          <div class="bola-cheia dark"></div>
-        </div>
-      </div>
-      <div class="blog-posts-wrapper">
-
-        <%
-        Set RS_blog = Server.CreateObject("ADODB.Recordset")
-        RS_blog.CursorLocation = 3
-        RS_blog.CursorType = 0
-        RS_blog.LockType =  3
-
-        RS_blog.Open "SELECT * FROM Post WHERE disponivel = 1 ORDER BY data DESC LIMIT 3", Conexao
-
-
-        If NOT RS_blog.Eof Then
-
-        while not RS_blog.eof
-
-        %>
-
-        <div class="blog-post-card">
-          <img class="img-blog" src="/dashboard/uploads/<%=RS_blog("img_produtoGRD")%>" alt="<%=RS_blog("nome_produto")%>">
-          <div class="blog-title"><%=RS_blog("nome_produto")%></div>
-          <div class="blog-button">
-            <a class="button-link w-inline-block" href="post/<%=RS_blog("canonical")%>" title="<%=RS_blog("nome_produto")%>">
-              <div class="blog-button-box blog-button-hover">
-                <div class="linha linha-blog"></div>
-                <img class="blog-button-image" src="/config/templateclube/images/ler_post_whitetext.svg">
-                <div class="linha linha-blog"></div>
-              </div>
-              <div class="blog-button-box">
-                <div class="linha linha-blog linha-blog-red"></div>
-                <img class="blog-button-image" src="/config/templateclube/images/ler_post.svg">
-                <div class="linha linha-blog linha-blog-red"></div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <%
-        RS_blog.movenext
-        wend
-        end if
-        %>
-
-      </div>
-      <div class="slide-button vantagem-button">
-        <a class="button-link w-inline-block" href="blog/"></a>
-
-        <div class="button-text">ACESSE NOSSO BLOG</div>
-
-      </div>
-      <div class="flag-box-right flag-stripe-box flag-stripe-curta">
-        <div class="stripe stripe-orange">
-          <div class="stripe-point-box">
-            <img class="point" src="/config/templateclube/images/point_60.svg" width="60">
-          </div>
-          <div class="stripe-fold-box">
-            <img class="stripe-fold stripe-fold-righ w-preserve-3d" src="/config/templateclube/images/stripe_fold_grey.svg">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
+<!-- blog -->
 
   <!--#INCLUDE FILE="barra-rodape.asp"-->
 
