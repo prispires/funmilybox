@@ -428,7 +428,7 @@ Session("template") = "romanflags"
         RS_funciona.CursorType = 0
         RS_funciona.LockType =  3
 
-        RS_funciona.Open "SELECT * FROM Roman_flags WHERE tipo = 1 ORDER BY codigo_chave DESC", Conexao
+        RS_funciona.Open "SELECT * FROM Roman_flags WHERE tipo = 1 ORDER BY codigo_chave ASC", Conexao
 
 
         If NOT RS_funciona.Eof Then
@@ -449,7 +449,7 @@ Session("template") = "romanflags"
                 end if
         %>
         <div class="como-funciona-card">
-          <img class="como-funciona-icon" src="/dashboard/uploads/<%=Replace(fotoparc, " ", "")%>" alt="<%=RS_funciona("titulo")%>">
+          <img class="como-funciona-icon" src="/dashboard/uploads/<%=Replace(fotoparc, " ", "")%>" alt="<%=RS_funciona("titulo")%>" style="display:none;">
           <div class="titulo-card"><%=RS_funciona("titulo")%></div>
           <div class="texto-card"><%=RS_funciona("texto")%></div>
         </div>
