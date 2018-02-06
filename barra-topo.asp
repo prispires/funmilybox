@@ -51,6 +51,8 @@ end if
 				<img class="logo" src="/dashboard/uploads/<%=Replace(logoclube, " ", "")%>" alt="<%=RS_Layout1("nome_site")%>">
 			</a>
 		</div>   
+	</div>
+    <div class="navbar-block navbar-middle">  
 		<a class="navbar-link w-inline-block" href="<%if pagina <> "index" then%>/index.asp<%end if%>#nosso_clube_id">
 			<div class="navbar-text-link">O que é?</div>
 		</a>
