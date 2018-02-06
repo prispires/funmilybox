@@ -71,11 +71,11 @@ end if
 	</div>
 	<%If Session("logado") <> "" then%>
 	<a class="login-link-mobile navbar-link navlink-blue w-inline-block" href="minhaassinatura.asp">
-		<div class="navbar-text-link">LOGIN</div>
+		<div class="navbar-text-link">CONTA</div>
 	</a>
 	<%else%>
 	<a class="login-link-mobile navbar-link navlink-blue w-inline-block" id="md_loginmb">
-		<div class="navbar-text-link">CONTA</div>
+		<div class="navbar-text-link">LOGIN</div>
 	</a>
 	<%end if%>
  
