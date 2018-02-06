@@ -811,6 +811,7 @@ font-family: 'PT Sans Narrow',sans-serif;
 
 .h3.h3-vantagens {
   /* color: #fff !important; */
+  max-width: 90%;
 }
 
 .h3.h3-loja {
@@ -839,8 +840,8 @@ font-family: 'PT Sans Narrow',sans-serif;
   display: -ms-flexbox;
   display: flex;
   width: 33.33%;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -899,6 +900,8 @@ font-family: 'PT Sans Narrow',sans-serif;
   -ms-flex-pack: center;
   justify-content: center;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .33), rgba(0, 0, 0, .33)), url('../images/fundo_planos_cru.jpg');
+
+
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .33), rgba(0, 0, 0, .33)), url('../images/fundo_planos_cru.jpg');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
@@ -1095,8 +1098,8 @@ font-family: 'PT Sans Narrow',sans-serif;
   width: 75%;
   height: 60px;
   margin-top: 20px;
-  padding-top: 10px;
 
+  padding-top: 10px;
   padding-bottom: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1659,7 +1662,6 @@ img.plano-image {
   background-color: #018ea9;
 }
 
-
 .newsletter-button-wrapper {
   position: relative;
   display: -webkit-box;
@@ -1870,7 +1872,7 @@ img.plano-image {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 802px;
+  width: 610px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1878,14 +1880,15 @@ img.plano-image {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
-  margin: 23px;
+  margin: 20px 10px;
 }
 
-.navbar-block.navbar-left {
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+.navbar-block.navbar-middle {
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -1904,12 +1907,11 @@ img.plano-image {
   width: 120px;
 }
 
-.navbar-block.navbar-middle {
-  position: relative;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+.navbar-block.navbar-left {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -2443,6 +2445,7 @@ img.plano-image {
 }
 
 .categoria-header {
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3458,7 +3461,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
   .footer-heading {
     margin-bottom: 5px;
   }
-  .navbar-block.navbar-left {
+  .navbar-block.navbar-middle {
     display: none;
   }
   .navbar-block.navbar-right {
@@ -3768,8 +3771,12 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     width: 90%;
     margin-bottom: 30px;
   }
+  .vantagens-card .titulo-card{
+    display:none;
+  }
   .loja-header {
     margin-top: 20px;
+
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3903,7 +3910,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
   .button-link {
     z-index: 3;
   }
-  .navbar-block.navbar-left {
+  .navbar-block.navbar-middle {
     display: none;
   }
   .login-wrapper {
@@ -4174,6 +4181,9 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
     width: 90%;
     margin-bottom: 30px;
   }
+  .titulo-card{
+    font-size:18px !important;
+  }
   .planos-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -4274,7 +4284,7 @@ html.w-mod-js *[data-ix="mobile-menu-hidden"] {
   .button-link {
     width: 100%;
   }
-  .navbar-block.navbar-middle {
+  .navbar-block.navbar-left {
     display: none;
   }
   .navbar-link.navlink-blue {
