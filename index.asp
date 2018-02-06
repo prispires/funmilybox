@@ -288,7 +288,7 @@ Session("template") = "romanflags"
   				RS_planos.CursorType = 0
   				RS_planos.LockType =  1
 
-  				RS_planos.Open "SELECT * FROM Produtos WHERE plano = 1 ORDER BY preco_unitario DESC", Conexao
+  				RS_planos.Open "SELECT * FROM Produtos WHERE plano = 1 ORDER BY preco_unitario ASC", Conexao
   				i = 1
   				while not RS_planos.eof
   				%>
