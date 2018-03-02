@@ -1,4 +1,4 @@
-<!--<div class="testemunhais">
+<div class="testemunhais">
     <div class="testemunhais-container w-container">
       <div class="testemunhais-header">
         <div class="linha-container">
@@ -6,7 +6,7 @@
           <div class="largura-planos linha"></div>
           <div class="bola-vazia"></div>
         </div>
-        <h3 class="h3 h3-testemunhais">O que falam de n&oacute;s?</h3>
+        <h3 class="h3 h3-testemunhais">O que andam falando por aí ...</h3>
         <div class="linha-container">
           <div class="bola-vazia"></div>
           <div class="largura-planos linha"></div>
@@ -67,4 +67,4 @@
 
       </div>
     </div>
-  </div>-->
+  </div>

@@ -6,7 +6,7 @@
 				<div class="largura-planos linha"></div>
 				<div class="bola-vazia"></div>
 			</div>
-			<h3 class="h3 h3-testemunhais">Receba novidades</h3>
+			<h3 class="h3 h3-testemunhais">Fique por dentro das nossas novidades e ofertas!</h3>
 			<div class="linha-container">
 				<div class="bola-vazia"></div>
 				<div class="largura-planos linha"></div>
@@ -58,7 +58,7 @@
 
 			</div>
 			<div class="footer-block">
-				<h5 class="footer-heading">LINKS</h5>
+				<h5 class="footer-heading">EMPRESA</h5>
 
 				<%
 				Set RS_paginas = Server.CreateObject("ADODB.Recordset")
@@ -81,11 +81,6 @@
 			<div class="footer-block">
 				<h5 class="footer-heading">FORMAS DE PAGAMENTO</h5>
 				<img src="/config/templateclube/images/payments.png">
-			</div>
-			<div class="footer-block">
-				<div class="w-embed w-script">
-					<%=RS_Layout1("app_facebook")%>
-				</div>
 			</div>
 		</div>
 		<div class="footer-social-wrapper">
@@ -113,7 +108,7 @@
 </div>
 <div class="copyright">
 	<div class="copyright-text">
-		<%=RS_Layout1("copy")%> - <a href="http://www.assinestore.com.br/plataforma-clube-assinaturas.html" target="_blank" style="color:#fff">Clubes de Assinatura AssineStore</a>
+		<%=RS_Layout1("copy")%>
 	</div>
 </div>
 
